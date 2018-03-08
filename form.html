@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+</head>
+<body>
+	<form>
+		
+		<fieldset>
+			<legend>Identificação Pessoal</legend>
+			<label for="PrimeiroNome">Nome:</label>
+			<input type="text" name="PrimeiroNome" placeholder="Nome">
+
+			<label for="SegundoNome">Sobrenome:</label>
+			<input type="text" name="SegundoNome" placeholder="Sobrenome">
+
+			<label for="email">Email:</label>
+			<input type="text" name="email" placeholder="E-mail">
+		</fieldset>
+
+		<br>
+
+		<fieldset>
+			<legend>Genero</legend>
+			<input type="radio" name="gender" value="male"
+			checked>Masculino<br>
+
+			<input type="radio" name="gender" value="female"
+			checked>Feminino<br>
+
+			<input type="radio" name="gender" value="other"
+			checked>Outro<br>
+		</fieldset>
+
+		<br>
+
+		<fieldset>
+			<legend>Nova Seleção de Chamsp</legend>
+			<select name="champsLol">
+				<option value="darius">Darius</option>
+				<option value="kha_ziks">Kha'Ziks</option>
+				<option value="kayn">Kayn</option>
+				<option value="lee_sin">Lee Sin</option>
+				<option value="orianna">Orianna</option>
+				<option value="viktor">Viktor</option>
+				<option value="ornn">Ornn</option>
+			</select>
+		</fieldset>
+
+		<br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
